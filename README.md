@@ -24,8 +24,9 @@ Cybersecurity Analyst with over 4 years of experience in Managed Security Servic
 
 **Professional Experience**
 
-*   **Cybersecurity Analyst (SOC/MDR)** | bēnce (2021 – Present)
-*   **Technical Support Analyst** | MSSP Environment (Multi-vendor security tool management and troubleshooting)
+*   **bēnce** (2021 – Present)
+    *   **Cybersecurity Analyst (SOC/MDR)**
+    *   **Technical Support Analyst** (Multi-vendor security tool management and troubleshooting in an MSSP environment)
 *   **Research Assistant (Data & Analytics)** | Instituto do Cérebro do RS (2019 – 2021)
 
 ---
