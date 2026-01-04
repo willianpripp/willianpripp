@@ -12,3 +12,4 @@ simulation_report.md
 # OS files
 .DS_Store
 .gemini/
+!evidence/*.log
