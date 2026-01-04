@@ -1,0 +1,14 @@
+# Credentials and Secrets
+lab_credentials.pass
+overrides.yaml
+*.pass
+*.key
+*.token
+
+# Logs and Evidence
+*.log
+simulation_report.md
+
+# OS files
+.DS_Store
+.gemini/

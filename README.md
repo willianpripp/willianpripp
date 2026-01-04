@@ -9,7 +9,7 @@ Cybersecurity Analyst with over 4 years of experience in Managed Security Servic
 
 *   **SIEM & Analytics:** Elastic Stack (ELK), KQL, ES|QL, Detection Engineering, Threat Hunting, Log Analysis.
 *   **Automation:** Python, PowerShell, JavaScript, n8n, SOAR workflows, REST API integration.
-*   **Security Stack:** Trend Micro SEP/SWP/Vision One (EDR), Orca Security (CSPM), Netskope (CASB/SASE), Fortinet (FortiGate), Segura (PAM), Vicarius (vRx).
+*   **Security Stack:** Trend Micro SEP/SWP/Vision One (EDR), Kubernetes (K3s), Container Security, Orca Security (CSPM), Netskope (CASB/SASE), Fortinet (FortiGate), Segura (PAM), Vicarius (vRx).
 *   **Operations:** Incident Response (IR), Playbook Development, Root Cause Analysis, Vulnerability Management.
 
 ---
@@ -19,6 +19,7 @@ Cybersecurity Analyst with over 4 years of experience in Managed Security Servic
 *   **[Detection Rules](./detection-rules):** KQL and ES|QL logic for Elastic SIEM to detect anomalous behavior and threat actor TTPs.
 *   **[Automation & Playbooks](./automation-playbooks):** Incident response workflows and SOC utility scripts developed with Python, PowerShell, and n8n.
 *   **[Strategic Dashboards](./dashboards):** Kibana visualizations for security monitoring, compliance, and executive reporting.
+*   **[Security Research Labs](./security-labs):** Hands-on laboratory environments for vulnerability research, threat emulation, and security tool validation (e.g., K3s + Vision One).
 
 ---
 
