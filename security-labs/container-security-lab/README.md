@@ -34,7 +34,17 @@ One of the key features of this lab is the ability to export and showcase real s
 - **Forensic Artifacts:** Local copies of agent-side events, perfect for showcasing results on GitHub or in security reports.
 
 ## 📁 Repository Structure
-...
+```text
+container-security-research-lab/
+├── README.md                          # Project overview and quick start
+├── security-labs/
+│   └── container-security-lab/
+│       ├── README.md                  # Lab-specific technical documentation
+│       ├── context.md                 # Detailed setup and replication guide
+│       ├── *.sh                       # Orchestration and lifecycle scripts
+│       ├── *.yaml                     # Security simulation manifests
+│       └── evidence/                  # Forensic logs and screenshots
+```
 
 ## 🗺️ Roadmap & Future Integrations
 This lab is the first phase of a larger SOC engineering project. Future phases include:
