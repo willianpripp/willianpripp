@@ -13,9 +13,10 @@ The primary goal of this lab is to provide a reproducible environment for testin
 
 ### Security Test Cases (YAML)
 - **Vulnerabilities**: `vulnerable-pod.yaml` (Metasploit image scanning).
-- **Credential Theft**: `secret-pod.yaml` (AWS Key exposure).
-- **Malware**: `malware-pod.yaml` (EICAR delivery).
-- **File Integrity**: `fim-pod.yaml` & `fim-advanced-tests.yaml` (Critical system file tampering).
+- **Credential Theft**: `secret-pod.yaml` (Env vars) & `secret-advanced.yaml` (SSH/GCP Keys in files).
+- **Malware**: `malware-pod.yaml` (EICAR) & `malware-advanced.yaml` (Droppers/Zipped signatures).
+- **Runtime**: `runtime-advanced.yaml` (Reverse shell & Host-mount escapes).
+- **File Integrity**: `fim-pod.yaml`, `fim-advanced-tests.yaml`, & `fim-deletion.yaml` (Modifications and deletions).
 - **Compliance**: `compliant-pod.yaml` (Gold standard configuration verification).
 
 ---
@@ -83,7 +84,8 @@ To demonstrate the success of the simulations on platforms like GitHub, the lab 
 - **`agent_cloud_sync.log`**: Confirms the agent is successfully communicating with the security backend.
 
 ### Summary of Findings:
-- **Malware:** Signature detection verified via Scout logs.
-- **FIM:** Baseline divergence captured for `/etc/hosts` and `/etc/passwd`.
-- **Vulnerabilities:** Successful scan completion for high-risk images (Metasploit).
-- **Secrets:** Env-var scanning successfully identified hardcoded keys.
+- **Malware:** Verified EICAR and behavioral dropper detection.
+- **FIM:** Baseline divergence captured for modifications and deletions.
+- **Vulnerabilities:** Successful scan completion for high-risk images.
+- **Secrets:** Identified both environment-variable and file-based credentials.
+- **Runtime:** Blocked shell escapes and detected outbound reverse shell attempts.

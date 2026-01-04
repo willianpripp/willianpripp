@@ -14,10 +14,10 @@ The goal is to provide a hands-on lab to observe how security agents behave when
 ## 🛡 Security Test Cases
 | Feature | Simulation Action | Observed Outcome |
 | :--- | :--- | :--- |
-| **Runtime Security** | Unauthorized `kubectl exec` and shell spawning | Real-time block & telemetry |
-| **Malware Defense** | EICAR Test String injection in running pods | Signature-based detection |
-| **FIM** | Tampering with `/etc/hosts`, `/etc/passwd`, and system binaries | Baseline divergence alerts |
-| **Secret Scanning** | Hardcoded AWS/Cloud credentials in environment variables | Static/Dynamic secret detection |
+| **Runtime Security** | Reverse shells, Host-mount escapes, `kubectl exec` | Behavioral blocking & telemetry |
+| **Malware Defense** | EICAR, Dropper scripts, & Compressed malware | Signature & Behavioral detection |
+| **FIM** | `/etc/hosts` tampering & Critical file deletion | Baseline divergence alerts |
+| **Secret Scanning** | AWS Keys (Env) & SSH Keys/GCP Keys (Files) | Static & Deep file scanning |
 | **Vulnerability Mgmt**| Scanning known-vulnerable images (Metasploit) | CVE mapping & Risk scoring |
 
 ## 🚀 Quick Start
