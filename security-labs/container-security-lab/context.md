@@ -89,3 +89,26 @@ To demonstrate the success of the simulations on platforms like GitHub, the lab 
 - **Vulnerabilities:** Successful scan completion for high-risk images.
 - **Secrets:** Identified both environment-variable and file-based credentials.
 - **Runtime:** Blocked shell escapes and detected outbound reverse shell attempts.
+
+---
+
+## Future Research & Lab Expansion
+These objectives are scheduled for Phase 2 of the lab development to increase the technical depth of the portfolio:
+
+### 1. Admission Control Validation (Prevention)
+- **Objective:** Move from "Detection" to "Prevention" using the Trend Micro Admission Controller.
+- **Test:** Attempt to deploy a pod with `privileged: true` or `hostNetwork: true`.
+- **Outcome:** Demonstrate that the agent blocks the deployment at the API level before the pod is even created.
+
+### 2. Lateral Movement Simulation
+- **Objective:** Detect internal reconnaissance within the cluster.
+- **Test:** Deploy a pod running `nmap` or a custom script to scan the Kubernetes service network and other pod IPs.
+- **Outcome:** Generate behavioral alerts for "Internal Network Scanning" in the SOC telemetry.
+
+### 3. Automated Log-to-Report Parser
+- **Objective:** Demonstrate security automation (DevSecOps) skills.
+- **Test:** A Python-based utility to parse `agent_scout_detections.log` and generate a clean, executive-level Markdown summary.
+- **Outcome:** Professional, readable reporting that bridges the gap between raw JSON and high-level analysis.
+
+---
+*This context file serves as the technical memory for the Container Security Research Lab.*
